@@ -19,5 +19,3 @@ for pizza in pizzas:
 
 for pizza in friends_pizzas:
     print(f"My friend's fav pizzas are {pizza}")
-
-

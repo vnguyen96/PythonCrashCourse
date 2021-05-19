@@ -46,3 +46,4 @@ print(num_list3)
 num_list3 = [value**3 for value in range(1, 11)]
 print(num_list3)
 
+#asdasd
