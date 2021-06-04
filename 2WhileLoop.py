@@ -49,9 +49,7 @@ while True: # loop that starts with 'while True' will run forever unless it reac
     else:
         print(f"I'd love to go to {message.title()}!")
 
-#Using continue in a Loop
-
-    #
+#Using 'Continue' in a Loop
 print("\n")
 current_number = 0 
 while current_number < 10: 
@@ -60,5 +58,12 @@ while current_number < 10:
         continue
 
     print(current_number)
+
+#Avoiding Infinite loops 
+
+x = 1 
+while x <= 5:
+    print(x)
+    # x += 1 <<< this code will continue to loop if this line is missing
 
 
