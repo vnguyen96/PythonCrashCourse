@@ -18,10 +18,10 @@ while unconfirmed_users: #The while loop runs as long as the list 'unconfirmed_u
     confirmed_users.append(current_user)
 
     #Display all confirmed users. 
-    print("\nThe following users have been confirmed: ")
+print("\nThe following users have been confirmed: ")
 
-    for confirmed_user in confirmed_users: 
-        print(confirmed_user.title())    
+for confirmed_user in confirmed_users: 
+    print(confirmed_user.title())    
 
 #Removing All Instances of Specific Values from a List 
 
