@@ -22,5 +22,7 @@ make_shirt(size='small', message='I love JavaScript')
 def describe_city(city, country='USA'):
     print(f"\n{city.title()} is in {country.title()}")
 
-describe_city()
+describe_city(city='NY')
+describe_city(city='Baltimore')
+describe_city(city='Paris', country='France')
 
